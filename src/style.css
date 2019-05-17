@@ -1,4 +1,13 @@
+@font-face {
+	font-family: 'DoctorGlitch';
+	src: url('./doctor-glitch.otf') format('otf');
+	font-weight: 600;
+	font-style: normal;
+}
+
 .hello {
   color: red;
   background: url('./prof-photo.jpg');
+  font-family: 'DoctorGlitch';
 }
+
