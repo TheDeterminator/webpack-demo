@@ -1,6 +1,13 @@
-@font-face {
+/*@font-face {
 	font-family: 'DoctorGlitch';
-	src: url('./doctor-glitch.otf') format('otf');
+	src: url('./doctor-glitch.otf');
+	font-weight: 600;
+	font-style: normal;
+} Won't work for some reason, maybe size limit, maybe file type*/
+
+@font-face {
+	font-family: 'Midnight Bangkok';
+	src: url('./Midnight-Bangkok.ttf');
 	font-weight: 600;
 	font-style: normal;
 }
@@ -8,6 +15,6 @@
 .hello {
   color: red;
   background: url('./prof-photo.jpg');
-  font-family: 'DoctorGlitch';
+  font-family: 'Midnight Bangkok';
 }
 
